@@ -59,7 +59,7 @@ public class LoudnessDensity {
 		int left = 0;
 	    int right = totalMassUpToCurrentIndex.length - 1;
 
-	    while (left <= right) {
+	    while (left < right) {
 	        int mid = left + (right - left) / 2;
 
 	        // Check if the middle element is the target

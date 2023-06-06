@@ -87,8 +87,8 @@ public class Wave {
                      //if ( audioData[j][i] > 1) {
                     //	 System.out.println( "wtf");
                      //}
-                     assert audioData[j][i] <1;
-                     assert audioData[j][i] > -1;
+                     assert audioData[j][i] <= 1;
+                     assert audioData[j][i] >= -1;
                  }
              }
              System.out.println("loaded");
